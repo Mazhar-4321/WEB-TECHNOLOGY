@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Sample Program</title>
+<script>
+    function popup(){
+        alert("hi")
+    }
+</script>
+</head>
+
+<body>
+<button onclick="popup()">onclick</button>
+<button onmouseover="popup()">onmouseover</button>
+<button ondblclick="popup()">ondoubleclick</button>
+<input type="text" placeholder="on key press" onkeypress="popup()" />
+<input type="text" placeholder="on key down" onkeydown="popup()" />
+<input type="text" placeholder="on key up" onkeyup="popup()" />
+<input type="text" placeholder="on change" onchange="popup()" />
+<input type="text" placeholder="on input" oninput="popup()" />
+</body>
+
+</html>
